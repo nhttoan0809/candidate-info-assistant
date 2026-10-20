@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.vercel/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.DS_Store
+__pycache__/
+.vercel
+
+# Local agent tooling and generated Next.js declarations
+.agents/
+next-env.d.ts
