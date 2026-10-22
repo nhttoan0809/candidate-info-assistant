@@ -947,13 +947,13 @@ function Chat({
         )}
         <form
           data-ui={`composer ${busy ? 'composer-busy' : ''}`}
-          className="relative rounded-[15px] border border-[#d9dfec] bg-surface p-[16px_16px_11px] shadow-[0_6px_24px_#29345a09,0_2px_5px_#29345a04] transition-[border-color] duration-150 focus-within:border-[#8c9fe9] focus-within:shadow-[0_0_0_3px_#3658e909,0_6px_24px_#29345a09] max-[769px]:rounded-[13px] max-[769px]:p-[13px_13px_10px] [&_textarea]:max-h-45 [&_textarea]:min-h-10.5 [&_textarea]:w-full [&_textarea]:resize-none [&_textarea]:border-0 [&_textarea]:bg-transparent [&_textarea]:text-[12px] [&_textarea]:leading-[1.7] [&_textarea]:text-ink [&_textarea]:outline-none max-[769px]:[&_textarea]:min-h-9.5 max-[769px]:[&_textarea]:text-[13px] min-[1550px]:[&_textarea]:text-[14px] [&_textarea::placeholder]:text-[#7a8497] [&_textarea:focus-visible]:outline-none"
+          className="relative isolate rounded-[15px] border border-[#d9dfec] bg-surface p-[16px_16px_11px] shadow-[0_6px_24px_#29345a09,0_2px_5px_#29345a04] transition-[border-color] duration-150 focus-within:border-[#8c9fe9] focus-within:shadow-[0_0_0_3px_#3658e909,0_6px_24px_#29345a09] max-[769px]:rounded-[13px] max-[769px]:p-[13px_13px_10px] [&_textarea]:max-h-45 [&_textarea]:min-h-10.5 [&_textarea]:w-full [&_textarea]:resize-none [&_textarea]:border-0 [&_textarea]:bg-transparent [&_textarea]:text-[12px] [&_textarea]:leading-[1.7] [&_textarea]:text-ink [&_textarea]:outline-none max-[769px]:[&_textarea]:min-h-9.5 max-[769px]:[&_textarea]:text-[13px] min-[1550px]:[&_textarea]:text-[14px] [&_textarea::placeholder]:text-[#7a8497] [&_textarea:focus-visible]:outline-none"
           onSubmit={handleSubmit}
         >
           {composerAttention > 0 && (
             <span
               key={composerAttention}
-              className="pointer-events-none absolute -inset-1 animate-composer-attention rounded-[calc(1rem_+_3px)] bg-[conic-gradient(from_var(--composer-border-angle),_transparent_0deg_100deg,_#06b6d4_150deg,_#2563ff_215deg,_#7c3aed_285deg,_#38d9ff_325deg,_transparent_360deg)] mask-exclude p-1 [mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] motion-reduce:bg-cobalt motion-reduce:opacity-100"
+              className="pointer-events-none absolute -inset-1 -z-10 animate-composer-attention rounded-[19px] bg-[conic-gradient(from_var(--composer-border-angle),_transparent_0deg_100deg,_#06b6d4_150deg,_#2563ff_215deg,_#7c3aed_285deg,_#38d9ff_325deg,_transparent_360deg)] after:absolute after:inset-1 after:rounded-[15px] after:bg-surface motion-reduce:[animation:composer-border-fade_3.6s_ease-out_forwards] motion-reduce:bg-cobalt max-[769px]:rounded-[17px] max-[769px]:after:rounded-[13px]"
               aria-hidden="true"
             />
           )}
