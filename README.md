@@ -2,6 +2,15 @@
 
 > **Biến hồ sơ GitHub thành một cuộc trò chuyện có dẫn chứng: nhà tuyển dụng khám phá dự án, đặt câu hỏi về ứng viên và tự đối chiếu nhận định của AI với nguồn công khai.**
 
+<div align="center">
+  <h3>🚀 Trải nghiệm Candidate Atlas trực tiếp</h3>
+  <p>Khám phá hồ sơ, chọn dự án và đặt câu hỏi có nguồn đối chiếu.</p>
+  <a href="https://candidate-atlas-drab.vercel.app">
+    <img src="https://img.shields.io/badge/%E2%96%B6_OPEN_LIVE_DEMO-2563EB?style=for-the-badge" alt="Mở demo Candidate Atlas" height="42" />
+  </a>
+  <p><a href="https://candidate-atlas-drab.vercel.app"><strong>candidate-atlas-drab.vercel.app ↗</strong></a></p>
+</div>
+
 **Dự án của Toàn Nguyễn** · Phát triển ứng dụng web và AI agent
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs)](TECHNICAL.md#stack)
@@ -12,7 +21,7 @@
 
 [Xem tính năng](#features) · [Tài liệu kỹ thuật & cài đặt](TECHNICAL.md)
 
-![Candidate Atlas: hồ sơ ứng viên, tổng quan có dẫn chứng và bảng hoạt động agent](docs/screenshots/overview.jpg)
+[![Candidate Atlas: hồ sơ ứng viên, tổng quan có dẫn chứng và bảng hoạt động agent](docs/screenshots/overview.jpg)](https://candidate-atlas-drab.vercel.app)
 
 _Ảnh chụp ứng dụng thực tế trên môi trường local. Dữ liệu và phản hồi thay đổi theo hồ sơ, model và thời điểm truy xuất._
 
